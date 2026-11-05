@@ -23,7 +23,7 @@ public class Diem3D extends diem2d {
     }
 
     @Override
-    public double khoangCach(diem2 p) {
+    public double khoangCach(diem2d p) {
         if (!(p instanceof Diem3D)) {
             throw new IllegalArgumentException("Phai truyen vao diem 3D");
         }
